@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
-from .views import index
+from .views import create
 
 urlpatterns = [
-    path('', index, name='home_page-index')
+    path('', create, name='create_account-create')
 ]
