@@ -17,9 +17,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include("home_page.urls")),
-    path('fight/', include("fight.urls")),
-    path('create_account/', include("create_account.urls")),
-    path('authentification/', include("authentification.urls")),
+    path('', include("home_page.urls"), name='home_page-home'),
+    path('fight/', include("fight.urls"), name='fight-travel'),
+    path('create_account/', include("create_account.urls"), name='create_account-create'),
+    path('authentification/', include("authentification.urls"), name='authentification-connection'),
     path('admin/', admin.site.urls)
 ]
