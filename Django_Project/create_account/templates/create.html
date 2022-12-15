@@ -22,7 +22,26 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <header class="w3-container w3-red w3-center" style="padding:128px 16px">
   <h1 class="w3-margin w3-jumbo">Heroes Game</h1>
   <p class="w3-xlarge">Make your own travel </p>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+  <form class="w3-padding-32" method="POST">
+    <p>
+        <label for="username">Username</label>
+        <input id="username" type="text" name="username">
+    </p>
+    <p>
+        <label for="email">Email</label>
+        <input id="email" type="text" name="email">
+    </p>
+    <p>
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password">
+    </p>
+    <p>
+      <label for="password">Confirm Your Password</label>
+      <input id="password" type="password" name="password">
+  </p>
+
+    <button type="submit">Login</button>
+</form>
 </header>
 
 <!-- First Grid -->

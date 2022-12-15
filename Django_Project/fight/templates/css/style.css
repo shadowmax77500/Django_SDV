@@ -1,0 +1,6 @@
+#image  {
+    float: left;
+    width: 100px; /* largeur en pixel de ta photo */
+    height:75px; /* hauteur en pixel de ta photo */
+    margin-right:10px; /* marge en pixel à droite de la photo */
+}
